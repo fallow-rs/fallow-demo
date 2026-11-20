@@ -18,3 +18,5 @@ import { summarizeCart } from "./utils/summary";
 import { exportCartSummary } from "./reports/export";
 summarizeCart([{ name: "pen", price: 100, count: 3 }]);
 exportCartSummary([{ name: "pen", price: 100, count: 3 }]);
+import { reportCart } from "./services/cart-report";
+reportCart([]);
